@@ -1,1 +1,0 @@
-let v = "Hello, world!"
