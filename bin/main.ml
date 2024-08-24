@@ -1,1 +1,1 @@
-let () = Printf.printf "%s\n" Tchunflay.Hello.v
+let () = Printf.printf "Hello world"
