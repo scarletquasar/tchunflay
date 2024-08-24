@@ -1,0 +1,4 @@
+(executable
+ (public_name tchunflay)
+ (name main)
+ (libraries tchunflay))
