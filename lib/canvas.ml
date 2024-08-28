@@ -1,15 +1,17 @@
+(* open Utils;; *)
+
 module BidimensionalCanvas = struct
-  class bdm_canvas = object
-    val mutable bdm_matrix : char list = ['.']
+  class ['a] bdm_canvas = object
+    val bdm_matrix_base : char list = ['.']
 
-    method pop =
-      match bdm_matrix with
-      | hd :: tl ->
-        bdm_matrix <- tl;
-        Some hd
-      | [] -> None
-
-    method push hd =
-      bdm_matrix <- hd :: bdm_matrix
+    method run = 
+      let a = 1 in
+      while true do
+          let _a = a+1 in
+          ()
+      done
+        
   end
+
+  type 'a t_bdm_canvas = 'a bdm_canvas
 end;;

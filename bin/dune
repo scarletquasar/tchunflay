@@ -1,4 +1,5 @@
 (executable
  (public_name tchunflay)
  (name main)
- (libraries tchunflay))
+ (libraries tchunflay)
+ (flags (:standard -warn-error "-unused-value-declaration")))

@@ -1,1 +1,2 @@
-let () = Printf.printf "Hello world"
+
+let () = Printf.printf "Hello world";;
